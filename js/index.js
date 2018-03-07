@@ -1,6 +1,6 @@
 function initialize() {
     var mapProp = {
-        center: new google.maps.LatLng(55.7341194,37.5880127),
+        center: new google.maps.LatLng(55.192091, 36.774784),
         zoom: 16,
         scrollwheel: false,
         navigationControl: false,
@@ -11,11 +11,11 @@ function initialize() {
     };
     var map = new google.maps.Map(document.getElementById("map"), mapProp);
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(55.7341194,37.5880127),
+        position: new google.maps.LatLng(55.192091, 36.774784),
         map: map
     });
     var iw1 = new google.maps.InfoWindow({
-        content: "офис Яндекс<br>Москва, улица Льва Толстого, 16"
+        content: "<a class='golovinka' href='http://baza-golovinka.ru/'>База отдыха «Головинка»</a>"
     });
 
     iw1.open(map, marker);

@@ -92,11 +92,11 @@ $(document).ready(function () {
             });
 
             $("#clicker").click(function () {
-                window.location = "https://docs.google.com/forms/d/e/1FAIpQLSf-srXAd7yaBcTET4dpLgLsKmNp-P5TH1HyLq02EfSBa9qBqA/viewform"
+                window.location = "https://goo.gl/forms/5odIxLPpuK76LSdm1"
             });
 
             $("#first_step").click(function () {
-                window.location = "https://docs.google.com/forms/d/e/1FAIpQLSf-srXAd7yaBcTET4dpLgLsKmNp-P5TH1HyLq02EfSBa9qBqA/viewform"
+                window.location = "https://goo.gl/forms/5odIxLPpuK76LSdm1"
             });
         }
 

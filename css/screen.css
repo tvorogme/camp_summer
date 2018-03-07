@@ -617,6 +617,12 @@ body {
     margin: auto;
 }
 
+#logo2 {
+    width: auto;
+    height: 82px;
+    margin: auto;
+}
+
 /* line 442, ../sass/screen.scss */
 #if_you {
     width: 100%;
