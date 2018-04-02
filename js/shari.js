@@ -92,11 +92,11 @@ $(document).ready(function () {
             });
 
             $("#clicker").click(function () {
-                window.location = "https://goo.gl/forms/5odIxLPpuK76LSdm1"
+                window.location = "http://goto.msk.ru/form_summer2018"
             });
 
             $("#first_step").click(function () {
-                window.location = "https://goo.gl/forms/5odIxLPpuK76LSdm1"
+                window.location = "http://goto.msk.ru/form_summer2018"
             });
         }
 
