@@ -1103,3 +1103,35 @@ nav a {
         margin: 30px auto;
     }
 }
+
+/*FAQ*/
+
+.faq-radio,
+.faq-answer,
+#get_more_questions_label,
+#get_more_questions {
+    display: none;
+}
+
+.faq-item .faq-radio:checked ~ .faq-answer {
+    display: block;
+}
+
+.faq-answer {
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.faq-item {
+    padding: 10px 0;
+}
+
+#first_faq_item {
+    margin-top: 50px;
+}
+
+.faq-question {
+    font-weight: 300;
+}
