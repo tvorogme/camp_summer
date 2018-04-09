@@ -1135,15 +1135,3 @@ nav a {
 .faq-question {
     font-weight: 300;
 }
-
-#get_more_questions:not(:checked) ~ .hidden_questions {
-    display: none;
-}
-
-#get_more_questions:not(:checked) ~ #get_more_questions_label {
-    display: block;
-}
-
-#get_more_questions:not(:checked) ~ #hide_questions {
-    display: none;
-}
