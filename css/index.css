@@ -1135,3 +1135,12 @@ nav a {
 .faq-question {
     font-weight: 300;
 }
+
+.faq-question:hover {
+    color: rgb(81, 13, 129);
+}
+
+.faq-answer ul {
+    list-style: disc;
+    margin-left: 19px;
+}
