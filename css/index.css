@@ -1120,8 +1120,8 @@ nav a {
 .faq-answer {
     padding-top: 3px;
     padding-bottom: 10px;
-    font-size: 1.1rem;
     text-align: left;
+    font-size: .9rem;
 }
 
 .faq-item {
@@ -1134,6 +1134,7 @@ nav a {
 
 .faq-question {
     font-weight: 300;
+    font-size: .9rem;
 }
 
 .faq-question:hover {
