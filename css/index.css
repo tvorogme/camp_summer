@@ -337,7 +337,8 @@ nav a {
 }
 
 .feature h4 {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 6px;
     text-align: center;
 }
 
