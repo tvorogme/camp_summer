@@ -1146,3 +1146,21 @@ nav a {
     list-style: disc;
     margin-left: 19px;
 }
+
+.more_about_us {
+    height: 0;
+    width: 210px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 3px;
+}
+
+.more_about_us a {
+    background: rgb(81, 13, 129);
+    color: white;
+    padding: 13px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
