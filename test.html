@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Летняя школа программирования и робототехники</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/static/img/favicon.ico" rel="shortcut icon"
+          type="image/vnd.microsoft.icon"/>
+
+    <meta name="description"
+          content="Летом 2018 года в Подмосковье в формате выездного лагеря пройдут летние школы программирования GoTo Camp для школьников и студентов со всей России. Направления обучения:
+                   прикладное и олимпиадное программирование, машинное обучение, биоинформатика, инфобезопасность, распределённые системы и блокчейн"/>
+    <meta property="og:title" content="Летняя школа программирования GoTo в Москве"/>
+    <meta name="keywords"
+          content="школа программистов, образовательный лагерь, обучение программированию, проектная школа, анализ данных, машинное обучение,
+          биоинформатика, информатика, куда отправить ребенка, подготовка к олимпиадам, лагерь городского типа,
+          городской лагерь, выездной лагерь, весенний лагерь, лагерь для подростков,
+          компьютерный лагерь, весенний лагерь, компьютерная школа, олимпиадное программирование, курсы программирования,
+          лагерь для программистов, программирование для школьников, лагерь для школьников">
+    <meta property="og:image" content="https://goto.msk.ru/images/soc.png">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Минималистический фонт -->
+    <link href="css/ubuntu-font.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Я прогружаю целую библиотеку для 1 функции, это говнокод, исправлю, сорь -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Google normal-otstups API -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSi6YNKwuJPvgEf7WxvYqNVAqbtDc-jnY&callback=initialize"
+            type="text/javascript"></script>
+
+    <!-- Кастомный JS -->
+    <script src="js/index.js"></script>
+    <link href="css/screen.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+    <style>
+        .slick-prev {
+            left: 25px !important;
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url(./images/buttons.png) center center no-repeat !important;
+            overflow: hidden;
+            background-position: -12px -31px !important;
+            z-index: 100;
+        }
+
+        .slick-next {
+            right: 25px !important;
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url(./images/buttons.png) center center no-repeat !important;
+            overflow: hidden;
+            background-position: -70px -31px !important;
+            z-index: 100;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            font-size: 0;
+        }
+    </style>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2101650410062511');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=2101650410062511&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+<style>
+    .program_select_wrapper {
+        background: rgba(255, 255, 255, 1); /*rgb(255, 140, 102);*/
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .program_select_wrapper input[type='radio'] {
+        display: none;
+    }
+
+    .program_select_wrapper label {
+        font-size: 1rem;
+        font-weight: 600;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        line-height: 1.6rem
+    }
+
+    .program_select_col_wrapper {
+        height: 100%;
+    }
+
+    .program_select_wrapper .row {
+        display: flex;
+    }
+
+    .program_select_col_checker {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .program_select_col_item {
+        display: flex;
+        flex: 1;
+        min-height: 72px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .program_select_col_wrapper p {
+        font-size: 1rem;
+        padding: 0 28px;
+        line-height: 1.7rem;
+        height: 100%;
+        text-align: left;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .program_select_col_wrapper a {
+        width: fit-content;
+        margin-top: 1.2rem;
+        border-bottom: 3px solid rgb(238, 229, 58);
+        height: 1.4rem;
+    }
+
+    .program_select_bioinf_text,
+    .program_select_programming_text,
+    .program_select_robo_text,
+    .program_select_ad_text,
+    .program_select_blockchain_text,
+    .program_select_algo_text {
+        display: none;
+    }
+
+    .right_column_select_program_wrapper {
+        padding-right: 4px;
+    }
+
+    .left_column_select_program_wrapper {
+        padding-left: 4px;
+    }
+
+</style>
+
+<script>
+    function clear_texts() {
+        $(".program_select_algo_text").css('display', 'none');
+        $(".program_select_robo_text").css('display', 'none');
+        $(".program_select_programming_text").css('display', 'none');
+        $(".program_select_bioinf_text").css('display', 'none');
+        $(".program_select_ad_text").css('display', 'none');
+        $(".program_select_blockchain_text").css('display', 'none');
+    }
+
+    const select_color = "5px solid rgba(238, 229, 58, 0.5)";
+
+    $(document).click(function () {
+        $(".program_select_col_item").css("border", '0px');
+        $("input[type='radio']:checked").parent().css("border", select_color);
+    });
+
+    $(document).ready(function () {
+        $(".program_select_robo_text").css('display', 'flex');
+        $("input[type='radio']:checked").parent().css("border", select_color);
+
+        $('#program_select_algo').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_algo_text").css('display', 'flex');
+            }
+        });
+
+
+        $('#program_select_robo').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_robo_text").css('display', 'flex');
+            }
+        });
+
+
+        $('#program_select_programming').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_programming_text").css('display', 'flex');
+            }
+        });
+
+
+        $('#program_select_bioinf').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_bioinf_text").css('display', 'flex');
+            }
+        });
+
+
+        $('#program_select_ad').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_ad_text").css('display', 'flex');
+            }
+        });
+
+
+        $('#program_select_blockchain').click(function () {
+            if ($(this).is(':checked')) {
+                clear_texts();
+                $(".program_select_blockchain_text").css('display', 'flex');
+            }
+        });
+
+    });
+</script>
+
+<div class="program_select_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 right_column_select_program_wrapper">
+                <div class="program_select_col_wrapper program_select_col_checker">
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_robo" type="radio" checked="checked">
+                        <label for="program_select_robo">Робототехника и<br>интернет вещей</label>
+                    </div>
+
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_programming" type="radio">
+                        <label for="program_select_programming">Прикладное<br>программирование</label>
+                    </div>
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_algo" type="radio">
+                        <label for="program_select_algo">Алгоритмы и<br>приложения</label>
+                    </div>
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_ad" type="radio">
+                        <label for="program_select_ad">Анализ данных и<br>машинное обучение</label>
+                    </div>
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_blockchain" type="radio">
+                        <label for="program_select_blockchain">Распределённые системы и<br>блокчейн</label>
+                    </div>
+                    <div class="program_select_col_item">
+                        <!--Radio-->
+                        <input name="program_select" id="program_select_bioinf" type="radio">
+                        <label for="program_select_bioinf">Биоинформатика и<br>вычислительная биология</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10 left_column_select_program_wrapper">
+                <div class="program_select_col_wrapper" style="background: white">
+                    <p class="program_select_robo_text">Участники направления робототехники будут разделены на 2
+                        группы: опытные ребята возьмутся сразу за проекты от компаний или на основе своих идей, пройдут
+                        все стадии от идеи до реализации. Второй поток специально предназначен для новичков, которые
+                        получат базовые навыки и инструментарий: познакомятся с Arduino и средой разработки; научатся
+                        работать с различными датчиками, микросхемами, сервомоторами и объединять это все, чтобы
+                        получить умные устройства. Каждый участник направления получит к концу школы результат в виде
+                        прототипа или законченного устройства, а также пройдет серию мастер-классов по проектной работе,
+                        промдизайну и 3д-печати, интернету вещей.
+                        <a>Подробнее</a>
+                    </p>
+
+                    <p class="program_select_programming_text">В рамках направления прикладного программирования
+                        формируется 3 группы. В первой
+                        группе запланирован самый базовый курс из лекций и воркшопов, сопровождающихся заданиями из
+                        различных областей, в рамках которых ребята сделают 5-6 мини-проектов. Во второй группе ребят
+                        ждут несколько учебных проектов с погружением в мобильную и веб-разработку, базы данных, сети,
+                        анализ данных, применение алгоритмов. Участники, попавшие в старшую группу по результатам
+                        тестирования, все время посвятят реализации основного неучебного проекта в рамках задачи от
+                        компании-партнера или на основе своей идеи. Всех участников ждут как технологические
+                        мастер-классы, так и семинары по организации работы в проекте, формированию ТЗ и исследованию
+                        требований от пользователей, тестированию, а также ежедневная работа под руководством
+                        куратора.
+                        <a>Подробнее</a>
+                    </p>
+
+                    <p class="program_select_algo_text">Изучение алгоритмов - основа подготовки специалиста Computer
+                        Science. Нетривиальные алгоритмы и структуры данных лежат в основе любых современных систем.
+                        Знания алгоритмов пригодятся и для поступления в сильнейшие технические университеты, и для
+                        успешного прохождения собеседований в технологические компании, и для развития соответствующего
+                        мышления, которое пригодится в любой области. В рамках направления участники познакомятся с
+                        наиболее распространенными алгоритмами и структурами данных. Будут рассмотрены примеры их
+                        использования и модификации под конкретные задачи. Направление полезно тем, кто хочет
+                        познакомится с алгоритмами и методами решения задач, подготовиться к конкурсам и олимпиадам по
+                        информатике. Тем, кто уже занимался олимпиадным программированием, будет полезно узнать, как
+                        устроена работа с алгоритмами и структурами данных в практических приложениях.
+                        <a>Подробнее</a>
+                    </p>
+
+
+                    <p class="program_select_ad_text">В базовом треке направления анализа данных и машинного обучения
+                        участники познакомятся с основными алгоритмами машинного обучения для задач классификации и
+                        регрессии, методами предобработки данных и оценки качества решений. В программе: линейные
+                        модели, KNN, дерево решений, случайный лес, градиентный бустинг, ансамбли, матричные разложения
+                        для понижения размерности, t-SNE, алгоритмы кластеризации, полносвязные, сверточные и
+                        рекуррентные нейронные сети. В проектном треке команды углубленно изучают более узкие темы,
+                        например, reinforcement learning, generative adversarial networks и т.п. Реализуют свои идеи или
+                        решают задачи от компаний-партнеров от рекомендательных систем до элементов искусственного
+                        интеллекта.
+                        <a>Подробнее</a>
+                    </p>
+
+                    <p class="program_select_bioinf_text">Биоинформатика – это стремительно развивающаяся область, точка
+                        смешения биологии,
+                        медицины, информатики и
+                        математики, целью которой является выявление новых биологических закономерностей
+                        алгоритмическими и
+                        статистическими методами. С развитием технологий появилась возможность исследовать весь геном
+                        организма
+                        в целом, определять уровни активности генов, исследовать их более сложные взаимодействия.
+                        Участники
+                        узнают об основных задачах биоинформатики, получат опыт работы с реальными данными, рассмотрят
+                        примеры
+                        современных исследований. К участию приглашаются все, кто хочет познакомиться с новой областью и
+                        попробовать силы в решении нестандартных междисциплинарных задач. Знание биологии не является
+                        обязательным в отличие от знания Python/R и наличия опыта прикладного программирования.
+                        <a>Подробнее</a>
+                    </p>
+
+                    <p class="program_select_blockchain_text">В рамках направления распределенных систем участники
+                        разберутся с подходами, которые используются при реализации высоконагруженных и надежных систем,
+                        существующими архитектурами и их реалзациями. Будут рассмотрены подходы к анализу и хранению
+                        больших данных (HDFS, MapReduce, Spark) и написанию эффективных масштабируемых сервисов (Docker,
+                        Kubernetes, концепции микросервисов, pub-sub queue). В дальнейшем, мы рассмотрим системы с
+                        распределенным доверием, в частности, участники займутся созданием своего блокчейна с нуля на
+                        Haskell, познакомятся с проблемой BFT и алгоритмами консенсуса, узнают о верификации и
+                        статическом анализе контрактов. В рамках практической части мы реализуем несколько мини-проектов
+                        и постараемся улучшить существующие технологии, в том числе платформы GoToChain, Exonum и
+                        Ethereum, а также поработаем над рядом кейсов от партнеров школы.
+                        <a>Подробнее</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
