@@ -1166,3 +1166,82 @@ nav a {
     font-size: 1.2rem;
     text-decoration: none;
 }
+
+.program_select_wrapper {
+    background: rgba(255, 255, 255, 1); /*rgb(255, 140, 102);*/
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.program_select_wrapper input[type='radio'] {
+    display: none;
+}
+
+.program_select_wrapper label {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem
+}
+
+.program_select_col_wrapper {
+    height: 100%;
+}
+
+.program_select_wrapper .row {
+    display: flex;
+}
+
+.program_select_col_checker {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.program_select_col_item {
+    display: flex;
+    flex: 1;
+    min-height: 72px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.program_select_col_wrapper p {
+    font-size: 1rem;
+    padding: 0 28px;
+    line-height: 1.7rem;
+    height: 100%;
+    text-align: left;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.program_select_col_wrapper a {
+    width: fit-content;
+    margin-top: 1.2rem;
+    border-bottom: 3px solid rgb(238, 229, 58);
+    height: 1.4rem;
+}
+
+.program_select_bioinf_text,
+.program_select_programming_text,
+.program_select_robo_text,
+.program_select_ad_text,
+.program_select_blockchain_text,
+.program_select_algo_text {
+    display: none;
+}
+
+.right_column_select_program_wrapper {
+    padding-right: 4px;
+}
+
+.left_column_select_program_wrapper {
+    padding-left: 4px;
+}
