@@ -11,12 +11,12 @@ const select_color = "5px solid rgba(238, 229, 58, 0.5)";
 
 $(document).click(function () {
     $(".program_select_col_item").css("border", '0px');
-    $("input[type='radio']:checked").parent().css("border", select_color);
+    $(".program_select_wrapper input[type='radio']:checked").parent().css("border", select_color);
 });
 
 $(document).ready(function () {
     $(".program_select_robo_text").css('display', 'flex');
-    $("input[type='radio']:checked").parent().css("border", select_color);
+    $(".program_select_wrapper input[type='radio']:checked").parent().css("border", select_color);
 
     $('#program_select_algo').click(function () {
         if ($(this).is(':checked')) {
