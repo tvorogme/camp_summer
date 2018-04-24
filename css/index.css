@@ -1225,7 +1225,8 @@ nav a {
     width: fit-content;
     margin-top: 1.2rem;
     border-bottom: 3px solid rgb(238, 229, 58);
-    height: 1.4rem;
+    height: 1.5rem;
+    color: #373a3c;
 }
 
 .program_select_bioinf_text,
