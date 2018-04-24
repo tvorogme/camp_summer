@@ -1222,6 +1222,7 @@ nav a {
 }
 
 .program_select_col_wrapper a {
+    width: -moz-fit-content;
     width: fit-content;
     margin-top: 1.2rem;
     border-bottom: 3px solid rgb(238, 229, 58);
