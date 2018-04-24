@@ -1170,7 +1170,6 @@ nav a {
 .program_select_wrapper {
     background: rgba(255, 255, 255, 1); /*rgb(255, 140, 102);*/
     padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .program_select_wrapper input[type='radio'] {
@@ -1244,4 +1243,9 @@ nav a {
 
 .left_column_select_program_wrapper {
     padding-left: 4px;
+}
+
+.br-popalam {
+    display: block !important;
+    margin-top: 0.5rem;
 }
