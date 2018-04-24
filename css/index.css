@@ -1250,3 +1250,91 @@ nav a {
     display: block !important;
     margin-top: 0.5rem;
 }
+
+#if_you {
+    width: 100%;
+    position: relative;
+    background: #633b92;
+    z-index: 4;
+    overflow: hidden;
+}
+
+#if_you a {
+    color: white;
+    text-decoration: none;
+}
+
+#trends a {
+    text-decoration: none;
+}
+
+#if_you h2 {
+    text-align: left;
+    padding-top: 0;
+    margin: 60px 0 20px 0;
+    font-size: 2rem;
+}
+
+#if_you p {
+    font-size: 16px;
+}
+
+#if_you .left {
+    padding-right: 60px;
+}
+
+#if_you .right {
+    padding-left: 60px;
+}
+
+#if_you .left,
+#if_you .right {
+    flex: 1;
+    color: #eee9dc;
+    display: block;
+    z-index: 3;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#if_you .left p,
+#if_you .right p {
+    padding-top: 10px;
+}
+
+#wave_canvas {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.whitespace_wave {
+    flex: 0.1;
+}
+
+.wave_conteiner {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wave_more {
+    display: flex;
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wave_more div:first-child,
+.wave_more div:last-child {
+    flex: 1;
+}
+
+.wave_more div:first-child {
+    padding-right: 60px;
+}
+
+.wave_more div:last-child {
+    padding-left: 60px;
+}

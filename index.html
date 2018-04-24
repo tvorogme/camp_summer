@@ -45,6 +45,13 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+    <script src="js/shari.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+    <script src="js/wave.js"></script>
+
     <style>
         .slick-prev {
             left: 25px !important;
@@ -1053,7 +1060,7 @@ style="stroke-width:0.9375">     </tspan></text>
                         </div>
                         <div class="program_select_col_item">
                             <!--Radio-->
-                            <input name="program_select" id="program_select_programming" type="radio">
+                            <input name="program_select" id="program_select_programming" type="radio" checked="checked">
                             <label for="program_select_programming">Прикладное<br>программирование</label>
                         </div>
                         <div class="program_select_col_item">
@@ -1063,7 +1070,7 @@ style="stroke-width:0.9375">     </tspan></text>
                         </div>
                         <div class="program_select_col_item">
                             <!--Radio-->
-                            <input name="program_select" id="program_select_robo" type="radio" checked="checked">
+                            <input name="program_select" id="program_select_robo" type="radio">
                             <label for="program_select_robo">Робототехника<br>и интернет вещей</label>
                         </div>
                         <div class="program_select_col_item">
@@ -1200,6 +1207,52 @@ style="stroke-width:0.9375">     </tspan></text>
             </div>
         </div>
     </div>
+
+    <div class="whitespace"></div>
+
+    <!-- Если вы -->
+    <div id="if_you" class="not-mobile">
+        <canvas id="wave_canvas">
+
+        </canvas>
+        <div id="grants" class="container wave_conteiner">
+            <div class="left">
+                <h2>Скидки</h2>
+                <p>
+                    Бессрочные гранты на скидки в размере 20% на участие в школе за успешную реализацию проекта, работа над которым была
+                    начата на одной из предыдущих школ.
+                    Для получения гранта необходимо завершить работу над проектом по утвержденному куратором плану и
+                    опубликовать результаты на Хабре.
+                </p>
+
+
+            </div>
+
+            <div class="whitespace_wave"></div>
+
+            <div class="right">
+                <h2>Бесплатное обучение</h2>
+                <p>
+                    Предложите идею проекта для нашей школы и сообщества вокруг, реализуйте ее и получите грант на
+                    бесплатное обучение. Критерии оценки проектов: работоспособность прототипа, техническая сложность,
+                    масштабируемость и полезность.
+                    Если вы полны сил и решимости, мы предоставим куратора для проработки идеи и плана.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="container wave_more">
+            <div>
+                <a href="/challenge_summer2018">Подробнее</a>
+            </div>
+            <div class="whitespace_wave"></div>
+            <div>
+                <a href="/challenge_summer2018">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
 
     <div class="whitespace not-mobile"></div>
     <!-- Наши препы -->

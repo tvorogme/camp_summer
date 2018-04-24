@@ -623,53 +623,6 @@ body {
     margin: auto;
 }
 
-/* line 442, ../sass/screen.scss */
-#if_you {
-    width: 100%;
-    position: relative;
-    background: #633b92;
-    z-index: 4;
-}
-
-/* line 447, ../sass/screen.scss */
-#if_you h2 {
-    text-align: left;
-    padding-top: 0;
-    margin-bottom: 20px;
-    font-size: 26px;
-}
-
-/* line 454, ../sass/screen.scss */
-#if_you p {
-    font-size: 16px;
-}
-
-/* line 459, ../sass/screen.scss */
-.left, .right {
-    width: 42%;
-    padding: 4%;
-    min-height: 200px;
-    color: #eee9dc;
-    display: block;
-    z-index: 3;
-}
-
-/* line 465, ../sass/screen.scss */
-.left p, .right p {
-    padding-top: 10px;
-}
-
-/* line 471, ../sass/screen.scss */
-.left_helper {
-    float: right;
-    width: 5%;
-}
-
-/* line 476, ../sass/screen.scss */
-.left {
-    float: right;
-}
-
 /* line 480, ../sass/screen.scss */
 .whitespace {
     width: 100%;
