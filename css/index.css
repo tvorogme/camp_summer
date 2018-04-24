@@ -1206,14 +1206,14 @@ nav a {
 .program_select_col_item {
     display: flex;
     flex: 1;
-    min-height: 72px;
+    min-height: 91px;
     padding-left: 28px;
     padding-right: 28px;
 }
 
 .program_select_col_wrapper p {
     font-size: 1rem;
-    padding: 0 28px;
+    padding: 0 61px;
     line-height: 1.7rem;
     height: 100%;
     text-align: left;
