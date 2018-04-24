@@ -1205,7 +1205,7 @@ nav a {
 .program_select_col_item {
     display: flex;
     flex: 1;
-    min-height: 95px;
+    min-height: 84px;
     padding-left: 28px;
     padding-right: 28px;
 }
@@ -1231,6 +1231,7 @@ nav a {
 
 .program_select_bioinf_text,
 .program_select_programming_text,
+.program_select_starter_text,
 .program_select_robo_text,
 .program_select_ad_text,
 .program_select_blockchain_text,
