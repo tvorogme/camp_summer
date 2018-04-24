@@ -22,7 +22,7 @@ $(document).ready(function () {
     c.width = $("#if_you").width();
     c.height = $("#if_you").height();
     var ctx = c.getContext("2d");
-    ctx.fillStyle = "#ec8b6d";
+    ctx.fillStyle = "#43B498";
     ctx.lineWidth = 1;
     var default_x = c.width / 2;
     var default_y = c.height / 2;
@@ -75,9 +75,9 @@ $(document).ready(function () {
             ctx.closePath();
 
             ctx.lineWidth = 5;
-            ctx.fillStyle = '#ec8b6d';
+            ctx.fillStyle = '#43B498';
             ctx.fill();
-            ctx.strokeStyle = '#ec8b6d';
+            ctx.strokeStyle = '#43B498';
             ctx.stroke();
         }
         // else {

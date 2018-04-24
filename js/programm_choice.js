@@ -11,11 +11,12 @@ function clear_texts() {
 const select_color = "5px solid rgba(238, 229, 58, 0.5)";
 
 $(document).click(function () {
-    $(".program_select_col_item").css("border", '0px');
+    $(".program_select_col_item").css("border", '5px solid white');
     $(".program_select_wrapper input[type='radio']:checked").parent().css("border", select_color);
 });
 
 $(document).ready(function () {
+    $(".program_select_col_item").css("border", '5px solid white');
     $(".program_select_ad_text").css('display', 'flex');
     $(".program_select_wrapper input[type='radio']:checked").parent().css("border", select_color);
 
