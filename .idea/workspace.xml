@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecc3c35-a9cb-4143-b428-eca8e7498e5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/shari.js" afterPath="$PROJECT_DIR$/js/shari.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="697" column="111" lean-forward="false" selection-start-line="697" selection-start-column="111" selection-end-line="697" selection-end-column="111" />
+            <state relative-caret-position="438">
+              <caret line="681" column="176" lean-forward="false" selection-start-line="681" selection-start-column="176" selection-end-line="681" selection-end-column="176" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shari.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/shari.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="98" column="134" lean-forward="false" selection-start-line="98" selection-start-column="134" selection-end-line="98" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -119,6 +139,7 @@
       <find>title</find>
       <find>познакомится</find>
       <find>познакомиться</find>
+      <find>Принять</find>
     </findStrings>
     <replaceStrings>
       <replace>0s</replace>
@@ -131,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/shari.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/css/screen.css" />
@@ -142,6 +162,7 @@
         <option value="$PROJECT_DIR$/../gotosite-v1.0/deploy/nginx-app.conf" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/shari.js" />
       </list>
     </option>
   </component>
@@ -546,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/shari.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="98" column="70" lean-forward="false" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -572,14 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,8 +668,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="697" column="111" lean-forward="false" selection-start-line="697" selection-start-column="111" selection-end-line="697" selection-end-column="111" />
+        <state relative-caret-position="438">
+          <caret line="681" column="176" lean-forward="false" selection-start-line="681" selection-start-column="176" selection-end-line="681" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/shari.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="98" column="134" lean-forward="false" selection-start-line="98" selection-start-column="134" selection-end-line="98" selection-end-column="134" />
           <folding />
         </state>
       </provider>

@@ -92,11 +92,11 @@ $(document).ready(function () {
             });
 
             $("#clicker").click(function () {
-                window.location = "http://goto.msk.ru/form_summer2018"
+                window.location = "https://docs.google.com/forms/d/e/1FAIpQLSe5zfirXmWAIPbeYd2c_TRY4UExmNVVlrribEVl0RP0ddquEw/viewform"
             });
 
             $("#first_step").click(function () {
-                window.location = "http://goto.msk.ru/form_summer2018"
+                window.location = "https://docs.google.com/forms/d/e/1FAIpQLSe5zfirXmWAIPbeYd2c_TRY4UExmNVVlrribEVl0RP0ddquEw/viewform"
             });
         }
 
