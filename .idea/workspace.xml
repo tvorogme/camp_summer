@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eecc3c35-a9cb-4143-b428-eca8e7498e5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="1055" column="35" lean-forward="false" selection-start-line="1055" selection-start-column="35" selection-end-line="1055" selection-end-column="35" />
+            <state relative-caret-position="-858">
+              <caret line="1019" column="66" lean-forward="true" selection-start-line="1006" selection-start-column="20" selection-end-line="1019" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -75,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="681">
@@ -118,6 +116,8 @@
       <find>Участие</find>
       <find>fit-co</find>
       <find>title</find>
+      <find>познакомится</find>
+      <find>познакомиться</find>
     </findStrings>
     <replaceStrings>
       <replace>0s</replace>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/js/programm_choice.js" />
         <option value="$PROJECT_DIR$/../gotosite-v1.0/main/templates/spirit/challenge_summer2018.html" />
         <option value="$PROJECT_DIR$/../gotosite-v1.0/deploy/nginx-app.conf" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -651,18 +651,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="1055" column="35" lean-forward="false" selection-start-line="1055" selection-start-column="35" selection-end-line="1055" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="1019" column="66" lean-forward="true" selection-start-line="1006" selection-start-column="20" selection-end-line="1019" selection-end-column="66" />
           <folding />
         </state>
       </provider>
