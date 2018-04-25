@@ -45,6 +45,15 @@ label:hover {
 
 .radio:checked ~ .content {
     max-height: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.radio:checked ~ .content a {
+    color: rgb(255, 140, 102);
+    display: block;
+    margin-top: 20px;
+    font-size: 1.1rem;
 }
 
 .green {
@@ -1251,6 +1260,7 @@ nav a {
 .br-popalam {
     display: block !important;
     margin-top: 0.5rem;
+    text-align: left;
 }
 
 #if_you {
