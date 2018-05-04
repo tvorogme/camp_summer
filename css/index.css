@@ -418,6 +418,23 @@ nav a {
     font-size: 24px;
 }
 
+.all_projects a {
+    border-radius: 0;
+    padding: 15px 25px;
+    border-color: rgb(255, 140, 102);
+    background-color: rgb(255, 140, 102);
+    font-size: 24px;
+}
+
+.all_projects {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .green-button a {
     border-color: rgb(67, 180, 152);
     background-color: rgb(67, 180, 152);
