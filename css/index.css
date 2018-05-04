@@ -1049,6 +1049,26 @@ nav a {
         padding-bottom: 0;
     }
 
+    .prep .col-md-4 {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .prep .col-md-8 {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .exonum {
+        width: 45%;
+    }
+
+    .summer_camp{
+        width: 50%;
+    }
+
     #first_challange {
         margin-top: 0;
     }
@@ -1365,3 +1385,4 @@ nav a {
 .wave_more div:last-child {
     padding-left: 60px;
 }
+
