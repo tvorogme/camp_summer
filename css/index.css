@@ -416,6 +416,7 @@ nav a {
     border-color: rgb(81, 13, 129);
     background-color: rgb(81, 13, 129);
     font-size: 24px;
+    font-weight: 300;
 }
 
 .all_projects a {
@@ -424,6 +425,7 @@ nav a {
     border-color: rgb(255, 140, 102);
     background-color: rgb(255, 140, 102);
     font-size: 24px;
+    font-weight: 300;
 }
 
 .all_projects {
@@ -1322,7 +1324,7 @@ nav a {
 #if_you .left,
 #if_you .right {
     flex: 1;
-    color: #eee9dc;
+    color: white;
     display: block;
     z-index: 3;
     margin-left: 0;
