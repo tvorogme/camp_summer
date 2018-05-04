@@ -830,13 +830,6 @@ nav a {
     background-position: -20px;
 }
 
-.programm-back table,
-.robot-back table,
-.bio-back table,
-.ad-back table {
-    background-color: rgba(55, 55, 55, 0.46);
-}
-
 .programm-back,
 .robot-back,
 .bio-back,
