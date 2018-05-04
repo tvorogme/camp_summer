@@ -1194,7 +1194,8 @@ nav a {
     text-align: left;
     display: flex;
     align-items: center;
-    line-height: 1.6rem
+    line-height: 1.6rem;
+    cursor: pointer;
 }
 
 .program_select_col_wrapper {
