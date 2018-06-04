@@ -14,7 +14,7 @@ document.onmousemove = function getMousePos(e) {
 
 var now_animation = false;
 $(document).ready(function () {
-    $(".right").css("height",$(".left").height());
+    // $(".right").css("height",$(".left").height());
     $("#wave_canvas").css("width", $("#if_you").width());
     $("#wave_canvas").css("height", $("#if_you").height());
 
